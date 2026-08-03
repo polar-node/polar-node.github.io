@@ -9,7 +9,7 @@ My journey into technology started with a question.
 
 Not a question about programming, networking, or computers. It started with an old reel-to-reel tape machine and a thought I could not ignore:
 
-How does this actually work?
+***How does this actually work?***
 I was fascinated by the idea that something could appear simple on the outside while hiding a complex world underneath. I wanted to understand what was happening inside, how the pieces connected, and why things worked the way they did.
 
 Looking back, that curiosity became the foundation of everything that followed. Whether I was repairing computers, learning Linux, building infrastructure, or automating systems, the motivation was always the same: do not just use something, understand it.
@@ -24,7 +24,7 @@ Learning about the Von Neumann architecture, understanding how processors and me
 
 Outside school, I spent years building, rebuilding, and troubleshooting Windows machines. Like many people from that generation, I learned a lot from forums, documentation, and trial and error. Breaking things was often the fastest way to understand them.
 
-**Starting over in another country*+
+**Starting over in another country**
 
 Moving to southern Spain changed everything.
 
@@ -62,7 +62,7 @@ Technology could be shared. Knowledge could be freely exchanged. Communities cou
 
 That idea stayed with me.
 
-Linux becomes more than a hobby
+**Linux becomes more than a hobby**
 
 Linux slowly became a constant part of my learning journey.
 
@@ -76,7 +76,7 @@ The grade was nice, but the more important lesson was realizing that Linux gave 
 
 That was when I decided I wanted to start contributing back.
 
-*+From experiments to real-world solutions**
+**From experiments to real-world solutions**
 
 As my Linux knowledge grew, my curiosity moved deeper into the hardware layer.
 
