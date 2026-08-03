@@ -1,5 +1,5 @@
 (function() {
-  const text = "❯ polar-n0de // runbooks";
+  const text = "❯ polar-node // runbooks";
   const cursor = "█";
   let i = 0;
   let showCursor = true;

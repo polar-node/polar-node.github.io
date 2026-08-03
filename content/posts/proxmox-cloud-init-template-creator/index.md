@@ -77,4 +77,4 @@ That's really what this script is. It's not infrastructure-as-code at enterprise
 
 The repo is public, documented, and open for anyone running Proxmox to use, fork, or improve further:
 
-**[github.com/polar-n0de/proxmox-template-creator](https://github.com/polar-n0de/proxmox-template-creator)**
+**[github.com/polar-node/proxmox-template-creator](https://github.com/polar-node/proxmox-template-creator)**

@@ -19,6 +19,6 @@ A fully redundant Zabbix monitoring stack, deployed entirely through code rather
 
 The goal is portability: the same IaC definitions should stand up the cluster identically whether the target is **on-premise Proxmox VE**, or a public cloud — **AWS**, **Azure**, or **GCP**. Same architecture, same automation, different provider underneath.
 
-This is a deliberate next step from my existing [SNMP Discovery Template Creator](https://github.com/polar-n0de/snmp-discovery-template-creator) and [Zabbix Custom Items](https://github.com/polar-n0de/zabbix-custom-items) projects — moving from "configuring Zabbix well" to "running Zabbix as resilient infrastructure that doesn't go down when one node does."
+This is a deliberate next step from my existing [SNMP Discovery Template Creator](https://github.com/polar-node/snmp-discovery-template-creator) and [Zabbix Custom Items](https://github.com/polar-node/zabbix-custom-items) projects — moving from "configuring Zabbix well" to "running Zabbix as resilient infrastructure that doesn't go down when one node does."
 
 More details, architecture diagram, and the repository link will follow as this gets built out.

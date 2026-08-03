@@ -1,12 +1,12 @@
-baseURL = "https://polar-n0de.github.io/"
+baseURL = "https://polar-node.github.io/"
 locale = "en-us"
-title = "polar-n0de // runbooks"
+title = "polar-node // runbooks"
 theme = "mainroad"
 paginate = 10
 enableRobotsTXT = true
 
 #[author]
-   # name = "polar-n0de"
+   # name = "polar-node"
     #bio = "Linux Systems Administrator | Zabbix | Proxmox | Automation"
     #avatar = "img/avatar.png"
 
@@ -26,7 +26,7 @@ enableRobotsTXT = true
   post_meta = ["date", "categories", "translations"]
 
 [params.author]
-  name = "polar-n0de"
+  name = "polar-node"
   bio = "Linux Systems Administrator | Zabbix • Proxmox • Automation. Documenting real infrastructure problems and how I solved them."
   avatar = "img/avatar.png"
 
@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
   [params.logo]
     image = "img/avatar.png"
-    title = "polar-n0de"
+    title = "polar-node"
     subtitle = "// runbooks"
 
   [params.sidebar]
@@ -50,8 +50,8 @@ enableRobotsTXT = true
 
 [params.widgets.social]
   linkedin = "radu-adrian-pintea"
-  github = "polar-n0de"
-  email = "polar-n0de@pm.me"
+  github = "polar-node"
+  email = "polar-node@pm.me"
 
 [menu]
   [[menu.main]]

@@ -1,6 +1,6 @@
-# polar-n0de.github.io
+# polar-node.github.io
 
-Source code for my personal tech blog — **[polar-n0de // runbooks](https://polar-n0de.github.io)**.
+Source code for my personal tech blog — **[polar-node // runbooks](https://polar-node.github.io)**.
 
 Linux systems administration, Zabbix, Proxmox, Bacula, and infrastructure automation — documented as I actually build and break things, not rehashed from docs.
 
@@ -13,8 +13,8 @@ Linux systems administration, Zabbix, Proxmox, Bacula, and infrastructure automa
 ## Local development
 
 ```bash
-git clone --recurse-submodules git@github.com:polar-n0de/polar-n0de.github.io.git
-cd polar-n0de.github.io
+git clone --recurse-submodules git@github.com:polar-node/polar-node.github.io.git
+cd polar-node.github.io
 hugo server -D
 ```
 

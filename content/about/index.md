@@ -9,6 +9,6 @@ Linux Systems Administrator based in Almería, Spain.
 I work with Proxmox, VMware, Zabbix, Ansible, Bacula, and AWS.
 This is where I document real infrastructure problems and how I solved them.
 
-- GitHub: [polar-n0de](https://github.com/polar-n0de)
+- GitHub: [polar-node](https://github.com/polar-node)
 - LinkedIn: [radu-adrian-pintea](https://www.linkedin.com/in/radu-adrian-pintea)
-- Email: polar-n0de@pm.me
+- Email: polar-node@pm.me
