@@ -1,25 +1,133 @@
-My interest in technology started with curiosity about a reel-to-reel tape machine and a question I couldn't let go of: how does this actually work? That instinct — take it apart, understand it, don't accept the surface explanation — turned out to be a constant throughout my career.
++++
+date = '2026-06-19T13:49:04+02:00'
+draft = false
+title = 'Origin'
++++
+**From a Reel-to-Reel tape machine to Linux Infrastructure: A journey of curiosity, learning, and sharing**
 
-I got my first computer in the 90s, a modest AMD Athlon system, and from there things progressed naturally: a technical high school with a strong informatics program, where physics and math weren't optional extras but the actual foundation — the Von Neumann model, the electrical fundamentals of the hardware itself. Years of building and rebuilding Windows machines followed, learning through forums the way most of that generation did.
+My journey into technology started with a question.
 
-Emigrating to southern Spain reset everything. No local language skills, an assumption that English would carry me through (it didn't), and academic credentials that took years to get properly recognized. It was a hard restart.
+Not a question about programming, networking, or computers. It started with an old reel-to-reel tape machine and a thought I could not ignore:
 
-What followed was a series of low-paying jobs, each one demanding a different skill, each one teaching me something I didn't have before. When the economic crash hit, freelance computer repair work — done from home — stopped being a side option and became the main one. It reframed how I saw problems: every one that showed up was really an opportunity in disguise.
+How does this actually work?
+I was fascinated by the idea that something could appear simple on the outside while hiding a complex world underneath. I wanted to understand what was happening inside, how the pieces connected, and why things worked the way they did.
 
-The real turning point came from a mistake: I accidentally deleted a partition and lost every photo I had. Every recovery tool I found was paid software I couldn't afford. What I found instead was a Linux forum — unfamiliar, slightly intimidating, but genuinely helpful. No paywalls, no gatekeeping, just clear instructions: boot from a live Ubuntu CD, use the right recovery tool, get your data back. It worked. That experience — technical competence freely shared, with no commercial angle — left a real impression on me.
+Looking back, that curiosity became the foundation of everything that followed. Whether I was repairing computers, learning Linux, building infrastructure, or automating systems, the motivation was always the same: do not just use something, understand it.
 
-From there, Linux became a constant presence, even while Windows still ran my daily work. The shift toward Linux as a profession came gradually: an official PC repair role, a degree in network systems administration, and a capstone project that mattered to me — a Raspberry Pi-based surveillance system with remote access and security filtering, built on Debian, which scored a 9/10. It was the second time Linux had directly enabled something I cared about.
+**The first computers and the foundations**
 
-That's when I decided it was time to start contributing back, not just consuming.
+My first computer arrived in the 1990s. It was a modest AMD Athlon system, but for me it was a gateway into an entirely new world.
 
-The years that followed deepened both my Linux fundamentals and my interest in the hardware layer — microelectronics, breadboards, UART reverse shells — which pulled me toward homelabbing. One practical example: when a company I worked with needed to cut digital signage licensing costs, I designed and built a Raspberry Pi-based signage system from scratch — consistent hardware, low cost, a freemium software stack — that became their standard solution.
+I quickly moved from simply using computers to experimenting with them. I enrolled in a technical high school with a strong informatics program, where technology was not taught as a collection of tools but as a combination of principles. Mathematics, physics, computer architecture, and electronics were all part of the foundation.
 
-Proxmox marked the next real step up, replacing VirtualBox with an actual hypervisor and the freedom to test any infrastructure scenario before it touched production.
+Learning about the Von Neumann architecture, understanding how processors and memory interact, and studying the electrical side of hardware gave me a deeper appreciation for what was happening beneath the operating system.
 
-Eventually, I moved into a full-time Linux administration role, which humbled me quickly — I thought I knew Linux well; I learned how much further there was to go. I inherited infrastructure with no real visibility into its own health, so I learned Zabbix from the ground up, assessed the environment, deployed proper monitoring, and built custom items where the stock templates fell short.
+Outside school, I spent years building, rebuilding, and troubleshooting Windows machines. Like many people from that generation, I learned a lot from forums, documentation, and trial and error. Breaking things was often the fastest way to understand them.
 
-That same pattern — assess, learn, automate — carried into AWS certification and a serious shift toward infrastructure-as-code: Ansible first, which immediately felt like the right way to work, then CloudFormation, then Terraform, which I now prefer. Git, Airflow, Jenkins, Prometheus, and Grafana followed naturally as the toolkit matured.
+**Starting over in another country*+
 
-The thread connecting all of it, from that first reel-to-reel tape machine to today, is the same one: an unwillingness to accept "it just works" without understanding why — and a genuine pull toward sharing what I learn along the way.
+Moving to southern Spain changed everything.
 
----
+I arrived without speaking the local language and with the assumption that English would be enough. It was not. On top of that, getting my previous education officially recognized became a long process.
+
+Professionally, it felt like starting from zero.
+
+I worked different jobs, many of them unrelated to technology. Each one taught me something valuable: how to adapt, communicate, solve problems with limited resources, and keep moving forward when the obvious path disappears.
+
+When the economic crisis hit, freelance computer repair became my main source of income. What started as a practical way to earn money became a valuable learning experience. Every broken computer, every strange software problem, and every frustrated user was a new challenge to solve.
+
+I started seeing problems differently. A problem was no longer just something broken. It was an opportunity to understand something new.
+
+**The mistake that introduced me to Linux**
+
+One mistake changed my relationship with technology.
+
+I accidentally deleted a partition containing all my personal photos.
+
+The recovery software I found online was expensive, and I could not afford it. While searching for alternatives, I ended up on a Linux forum.
+
+At the time, Linux felt unfamiliar. The command line was intimidating, and the community was very different from the commercial software world I knew.
+
+But something immediately stood out.
+
+People were willing to help.
+
+There was no sales pitch, no locked features, and no requirement to buy something first. People simply shared their knowledge. They explained how to boot from an Ubuntu Live CD, use recovery tools, and restore my data.
+
+It worked.
+
+I recovered my photos, but I gained something much more important: my first real connection with the Linux philosophy.
+
+Technology could be shared. Knowledge could be freely exchanged. Communities could help people solve real problems.
+
+That idea stayed with me.
+
+Linux becomes more than a hobby
+
+Linux slowly became a constant part of my learning journey.
+
+Windows remained my main work environment for a long time, but Linux was always there in the background, powering experiments and personal projects.
+
+Eventually, that interest became a career direction. I moved into professional computer repair, completed a degree in Network Systems Administration, and started building larger projects.
+
+For my final project, I created a Raspberry Pi-based surveillance system running Debian. It included remote access and security filtering and received a 9/10 grade.
+
+The grade was nice, but the more important lesson was realizing that Linux gave me the freedom to build solutions instead of simply consuming them.
+
+That was when I decided I wanted to start contributing back.
+
+*+From experiments to real-world solutions**
+
+As my Linux knowledge grew, my curiosity moved deeper into the hardware layer.
+
+I started exploring microelectronics, breadboards, UART debugging, and homelabbing. I enjoyed creating small environments where I could test ideas, break things safely, and learn how everything connected.
+
+One example came from a digital signage problem at work.
+
+The existing solution depended on expensive licensing, and there was a need for something more flexible and affordable.
+
+I designed a Raspberry Pi-based alternative using standardized hardware and a cost-effective software stack. After testing and refining the solution, it became the standard approach for the company.
+
+It was a simple idea, but it represented something I enjoy most about technology: taking limitations and turning them into engineering challenges.
+
+**Learning infrastructure properly**
+
+Eventually, my experiments moved from individual machines to complete environments.
+
+VirtualBox was no longer enough for what I wanted to test, so I moved to Proxmox. Having a real hypervisor changed the way I learned. I could simulate infrastructure, test different scenarios, and understand how systems behaved together.
+
+When I later moved into a Linux administration role, I quickly discovered that knowing Linux was only the beginning.
+
+Managing infrastructure at scale was a different challenge.
+
+I inherited systems with limited visibility into their health. The first problem was not fixing failures. It was understanding what was happening.
+
+I learned Zabbix from the ground up, evaluated the environment, implemented monitoring, and created custom monitoring items where the default templates were not enough.
+
+The result was a shift from reacting to problems after they happened to having the information needed to prevent them.
+
+That experience reinforced a pattern that has followed me throughout my career:
+
+Understand first. Improve second. Automate whenever possible.
+
+**The automation journey**
+
+That mindset naturally led me toward automation and infrastructure as code.
+
+I started with Ansible, and it immediately felt like the right way to manage systems. Instead of repeating manual tasks, infrastructure could become consistent, documented, and repeatable.
+
+From there, I expanded into AWS, CloudFormation, and eventually Terraform, which has become my preferred infrastructure-as-code tool.
+
+Along the way, tools like Git, Jenkins, Airflow, Prometheus, and Grafana became part of my daily toolkit, helping me build systems that are not only functional but observable and maintainable.
+
+The same question remains
+
+From that first reel-to-reel tape machine to modern cloud infrastructure, the technology has changed completely.
+
+The question has not.
+
+***How does this actually work?***
+
+That curiosity continues to drive me. It pushes me to learn, experiment, build, and share knowledge with others.
+
+Because the best part of technology is not only creating solutions. It is understanding them deeply enough that you can help someone else create theirs.
