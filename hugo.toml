@@ -79,6 +79,11 @@ enableRobotsTXT = true
     name = "Origin"
     url = "/origin/"
     weight = 5
+  [[menu.main]]
+    identifier = "hire"
+    name = "Work with me"
+    url = "/hire/"
+    weight = 6
 [taxonomies]
   category = "categories"
   tag = "tags"
