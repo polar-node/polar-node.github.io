@@ -2,7 +2,7 @@
 title: "I Got Paid in Groceries. Here's What I Built."
 date: 2026-07-22
 draft: false
-categories: ["Homelab", "Infrastructure"]
+categories: ["Projects", "Infrastructure"]
 tags: ["linux", "opensource", "devops", "sysadmin", "proxmox", "ansible", "wazuh", "foss"]
 description: "A small retailer had no backups, no monitoring, no remote access, and roughly zero budget. Here's what got built with a 12-year-old desktop and open source tools."
 ---
@@ -15,7 +15,7 @@ What followed was one of the most honest projects I have worked on in years. No 
 
 Turns out, quite a lot.
 
-## The architecture
+### The architecture
 
 Everything runs on a single HP EliteDesk 800 G1 — a 256GB SSD for the Proxmox host, a 1TB SSD for the live containers, and a 3TB HDD for backups and file shares. One box, six LXC containers, no redundancy to fall back on.
 
@@ -64,11 +64,11 @@ Ansible handles day-2 operations across the fleet — pings, package upgrades, r
 
 ![Ansible playbook run upgrading packages across the fleet, play recap showing zero failures](images/3.png)
 
-## Where the disks actually go
+### Where the disks actually go
 
 ![Physical disk layout — which container or service lives on which drive](images/diagram3.png)
 
-## On the hardware
+### On the hardware
 
 I know what some of you are thinking. A real engineer would never deploy on hardware that old.
 
@@ -76,7 +76,7 @@ Fair. It is not ideal. But telling a small business they need new hardware befor
 
 Everything you see in the screenshots was built manually and configured from scratch. Ansible handles day-2 operations, updates, security hardening, agent deployment. I am not going to dress that up as full IaC when it is not.
 
-## The real question
+### The real question
 
 Recruiters love asking about scale. Kubernetes. Multi-region. Impressive dashboards.
 
