@@ -40,7 +40,7 @@ The homelab isn't static. I'm always iterating on power consumption, physical fo
 - **HBA:** LSI SAS2008, passed through to the TrueNAS VM
 - **Zigbee:** Sonoff USB MG24 controller, passed through to Home Assistant
 
-In this post, i explain all hardware choice and how it all came togheter.
+In [this post](https://polar-node.work/posts/building-homelab-server/), i explain all hardware choice and how it all came togheter.
 
 ### Virtualization & Orchestration
 
