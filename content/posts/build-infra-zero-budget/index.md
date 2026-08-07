@@ -7,7 +7,7 @@ tags: ["linux", "opensource", "devops", "sysadmin", "proxmox", "ansible", "check
 description: "A second business, a mixed Windows/Linux environment, and a deliberate choice to leave the comfort zone: how CheckMK, Ansible, and an offsite immutable backup stack got built on spare hardware."
 ---
 
-## Built it, and they will come
+
 
 After posting my [earlier project](https://polar-node.work/posts/paid-in-groceries/), where I pulled a small, open-source infrastructure out of a hat for a small business that had nothing and now has real infrastructure, some people reached out and started asking questions. One of those turned into a hands-down agreement on a job.
 
