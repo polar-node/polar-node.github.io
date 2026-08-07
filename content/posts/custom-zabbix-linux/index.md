@@ -34,11 +34,15 @@ So I wanted the same pane of glass to cover the overlooked, mundane things, too:
 
 The default load metrics in Zabbix templates don't really tell the whole story, so I needed something more accurate. PSI is what the big players monitor: PSI for CPU, RAM, and storage gives a clearer, earlier warning of server trouble than load average alone. This one is for you: https://www.linkedin.com/in/josemfh/?locale=es
 
-The easiest way to explain load average is with a traffic analogy: it's like a report that only tells you "there are 12 cars backed up." Fine to know, but not much you can do with it.
+The easiest way to explain load average is with a traffic analogy: it's like a report that only tells you "there are 12 cars stuck in traffic." Good to know, but not much you can do with it.
 
-Are they stuck because the road itself is too narrow (CPU-bound)? Because there's a toll booth jam ahead (I/O-bound)? Because half the cars pulled over to fill up gas at once (memory pressure)?
+Are they stuck because the road itself is too narrow (CPU-bound)?
 
-Load average won't tell you. It just says something's backed up, not why. Zabbix's default load item has the same problem. That's where PSI comes in.
+Because there's a toll booth jam ahead (I/O-bound)?
+
+Because half of those cars pulled over to fill up gas at once (memory pressure)?
+
+Load average won't tell you. It just says something's slow, not why. Zabbix's default load item has the same problem. That's where PSI comes in.
 
 PSI (Pressure Stall Information) is the traffic report that actually tells you what's causing the jam, and for how long: maybe 80% of the delay is the narrow road (CPU), 5% is the toll booth (I/O), and the gas stop barely matters. Or it could be the opposite: the road's wide open, but everyone's stuck filling up gas at the same time. Same 12 cars, same load average, but a completely different fix.
 
