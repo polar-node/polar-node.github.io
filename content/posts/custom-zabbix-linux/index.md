@@ -32,11 +32,22 @@ So I wanted the same pane of glass to cover the overlooked, mundane things, too:
 
 ### Deep Dive: PSI (Pressure Stall Information)
 
-The default load metrics in Zabbix templates don't really tell the whole story, so I needed something more accurate. PSI is what the big players monitor: PSI for CPU, RAM, and storage gives a more accurate, proactive picture of server status than load average alone. This one is for you: https://www.linkedin.com/in/josemfh/?locale=es
+The default load metrics in Zabbix templates don't really tell the whole story, so I needed something more accurate. PSI is what the big players monitor: PSI for CPU, RAM, and storage gives a clearer, earlier warning of server trouble than load average alone. This one is for you: https://www.linkedin.com/in/josemfh/?locale=es
+
+The easiest way to explain load average is with a traffic analogy: it's like a report that only tells you "there are 12 cars backed up." Fine to know, but not much you can do with it.
+
+Are they stuck because the road itself is too narrow (CPU-bound)? Because there's a toll booth jam ahead (I/O-bound)? Because half the cars pulled over to fill up gas at once (memory pressure)?
+
+Load average won't tell you. It just says something's backed up, not why. Zabbix's default load item has the same problem. That's where PSI comes in.
+
+PSI (Pressure Stall Information) is the traffic report that actually tells you what's causing the jam, and for how long: maybe 80% of the delay is the narrow road (CPU), 5% is the toll booth (I/O), and the gas stop barely matters. Or it could be the opposite: the road's wide open, but everyone's stuck filling up gas at the same time. Same 12 cars, same load average, but a completely different fix.
+
+That's the difference between guessing and actually knowing before you even SSH in. With this custom item, Zabbix gives you a clearer picture of your Linux hosts, so you know exactly what to fix and where.
+
 
 ### Deep Dive: MAC Status (SELinux/AppArmor)
 
-In a multi-user, multi-admin/devops environment, things happen. Without pointing fingers, someone will eventually disable AppArmor or SELinux. You shouldn't do that in production, but we've all seen it happen. Better to have it monitored, so when someone does it, we know who, when, and where. And if youre lucky or have enough points on your charisma, you'll get to know the why with a wall messsage across the infra. 
+In a multi-user, multi-admin/devops environment, things happen. Without pointing fingers, someone will eventually turn off AppArmor or SELinux. You're not supposed to do that in production, but we've all seen it happen (and if we're honest, some of us have done it at 2am chasing a permission error). Better to have it watched, so when it happens, we know who, when, and where. And if you're lucky, or your charisma stat is high enough, you might even get the *why* too, delivered as a wall message sent across the whole infra.If you know, you know.
 
 One thing to be aware of when running those custom checks: add the `zabbix` user to a separate sudoers file with only enough privileges to run it, don't grant more than it needs.
 
