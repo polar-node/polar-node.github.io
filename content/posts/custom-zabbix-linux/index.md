@@ -33,8 +33,7 @@ In a multi-user, multi-admin environment, things happen. Without pointing finger
 
 One thing to be aware of when running this check: add the `zabbix` user to a separate sudoers file with only enough privileges to run it, don't grant more than it needs.
 
-![Linux Enhanced Template showing all metrics, under a dummy load to show it captures the metrics](images/1.png)
-
+[![Linux Enhanced Template showing all metrics, under a dummy load to show it captures the metrics](images/1.png)](images/1.png)
 
 ## Deployment
 
