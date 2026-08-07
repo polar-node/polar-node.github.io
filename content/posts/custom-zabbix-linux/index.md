@@ -28,7 +28,7 @@ Needless to say, for my particular situation, I created some scripts, linked the
 
 If you're monitoring, you want all the info on as few screens as possible. Moreover, to get that, it touches somehow tangentially one principle. Laziness. Some will shy away from admitting it, but the vast majority of sysadmins are lazy, not couch-potato lazy, but "why open another terminal to pull aditional data if I already have this screen in front of me, just show me everything I need" lazy.
 
-So I wanted the same pane of glass to cover the overlooked, mundane things, too: password age, SSH keypair age, DNS status, time sync drift, and more. In total, 17 checks across three categories: security (SSH keys, failed logins, MAC status), health (PSI, OOM, systemd), and drift (time, pending reboot, pinned packages) that Zabbix Linux defaul templates does not cover.
+So I wanted the same pane of glass to cover the overlooked, mundane things, too: password age, SSH keypair age, DNS status, time sync drift, and more. In total, 17 checks across three categories: security (SSH keys, failed logins, MAC status), health (PSI, OOM, systemd), and drift (time, pending reboot, pinned packages) that Zabbix Linux default templates does not cover.
 
 ### Deep Dive: PSI (Pressure Stall Information)
 
@@ -39,6 +39,15 @@ The default load metrics in Zabbix templates don't really tell the whole story, 
 In a multi-user, multi-admin/devops environment, things happen. Without pointing fingers, someone will eventually disable AppArmor or SELinux. You shouldn't do that in production, but we've all seen it happen. Better to have it monitored, so when someone does it, we know who, when, and where. And if youre lucky or have enough points on your charisma, you'll get to know the why with a wall messsage across the infra. 
 
 One thing to be aware of when running those custom checks: add the `zabbix` user to a separate sudoers file with only enough privileges to run it, don't grant more than it needs.
+
+Some screenshots:
+
+
+[![Linux Enhanced Template items, as they are added by uploading the LEH.yml template](images/2.png)](images/2.png)
+
+
+[![Linux Enhanced Template showing the dashboard](images/3.png)](images/3.png)
+
 
 [![Linux Enhanced Template showing all metrics, under a dummy load to show it captures the metrics](images/1.png)](images/1.png)
 
