@@ -9,13 +9,19 @@ description: "A post about extending monitoring scope of Zabbix with custom para
 
 ## 17 Custom Zabbix checks every Linux Admin should have
 
-Zabbix's default templates cover the basics pretty well, but accepting only the defaults,  puts you in the spectator seat: green or red, up or down, basic alerting. The moment you want to know in-depth *why* a server feels off, not just *that* something's wrong, you're on your own. As in yo can tweak and get more from Zabbix, but some efforts is required. Hold your seat, I'll explain myself. This post covers the metrics I found myself missing, the problems that i faced once I started paying closer attention, and how I closed those gaps with a set of custom user parameters checks.
+Zabbix's default templates cover the basics pretty well, but accepting only the defaults,  puts you in the spectator seat: green or red, up or down, basic alerting. The moment you want to know in-depth *why* a server feels off, not just *that* something's wrong, you're on your own. As in yo can tweak and get more from Zabbix, but some efforts is required.
+
+Hold your seat, I'll explain myself.
+
+This post covers the metrics I found myself missing, the problems that i faced once I started paying closer attention, and how I closed those gaps with a set of custom user parameters checks.
 
 ### Why Custom User Parameters
 
 As a sysadmin, one of the tasks you're presented with is choosing the right tool for the job. But truth be told, a tool is rarely a perfect match, there are always small gaps. Monitoring tools are no different; no single tool covers everything or has a plugin for all you can imagine. Or has it all, but feels "right" for you, in particular.
 
-Sometimes there's a convenient plugin to pull your wanted metric, and Bob's your uncle. But when there isn't one, you're invited (not to say forced) to create your own script, assuming the monitoring platform is open enough to allow it (that's a topic for another discussion). This was and still is one of my favourite feature of Zabbix: the ability to create your own Custom User Parameters to pull out the exactly metric you want, how you want.
+Sometimes there's a convenient plugin to pull your wanted metric, and Bob's your uncle. But when there isn't one, you're invited (not to say forced) to create your own script, assuming the monitoring platform is open enough to allow it (that's a topic for another discussion).
+
+This was and still is one of my favourite feature of Zabbix: the ability to create your own Custom User Parameters to pull out the exactly metric you want, how you want.
 Needless to say, for my particular situation, I created some scripts, linked them to new created item>custom-user-parameters, and put all those in a custom template. And those alone are what led to this post and the repo on my GitHub page.
 
 ### What I built
