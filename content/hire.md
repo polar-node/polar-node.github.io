@@ -12,6 +12,7 @@ toc = false
 Design, build, improve, or migrate infrastructure.
 
 - Linux administration and troubleshooting
+- Linux server hardening, best security practices
 - Virtualization with Proxmox or VMware
 - Custom VM templates, Linux images, and containers
 - Hypervisor migrations
