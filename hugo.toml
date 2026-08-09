@@ -39,7 +39,7 @@ enableRobotsTXT = true
     subtitle = "// runbooks"
 
   [params.sidebar]
-    home = "right"
+    home = false
     list = "right"
     single = "right"
     widgets = ["search", "recent", "categories", "taglist"]
@@ -60,14 +60,14 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
     weight = 3
   [[menu.main]]
     identifier = "about"
@@ -75,15 +75,10 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 4
   [[menu.main]]
-    identifier = "origin"
-    name = "Origin"
-    url = "/origin/"
-    weight = 5
-  [[menu.main]]
     identifier = "hire"
     name = "Work with me"
     url = "/hire/"
-    weight = 6
+    weight = 5
 [taxonomies]
   category = "categories"
   tag = "tags"

@@ -1,0 +1,74 @@
+{{ define "main" }}
+<main class="main list home" role="main">
+
+  <section class="home__hero">
+    <h1 class="home__name">Adrian <span class="home__handle">// polar-node</span></h1>
+    <p class="home__tagline">Sysadmin · Infrastructure · Automation</p>
+    <p class="home__lead">
+      Linux systems administration, monitoring, and infrastructure automation.
+      I build, troubleshoot, and improve real systems, and document what I learn along the way.
+    </p>
+    <div class="home__cta">
+      <a class="btn home__btn" href="{{ "about/" | relURL }}">About me</a>
+      <a class="btn home__btn home__btn--primary" href="{{ "projects/" | relURL }}">Explore my work</a>
+    </div>
+  </section>
+
+  <section class="home__section">
+    <h2 class="home__section-title">What you&rsquo;ll find here</h2>
+    <div class="home__cards">
+      <div class="home__card">
+        <h3>Infrastructure</h3>
+        <p>Linux · Proxmox · VMware · Networking · AWS</p>
+      </div>
+      <div class="home__card">
+        <h3>Hands-on projects</h3>
+        <p>Homelab experiments, SMB infrastructure, HA clusters</p>
+      </div>
+      <div class="home__card">
+        <h3>Runbooks &amp; problem solving</h3>
+        <p>Zabbix · Ansible · Bacula · things I&rsquo;ve broken, fixed, and learned from</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="home__section">
+    <h2 class="home__section-title">Selected work</h2>
+    <div class="home__cards home__cards--projects">
+      {{ range slice "smb-infrastructure" "homelab" "guacamole-ha-cluster" }}
+        {{ with $.Site.GetPage (printf "/projects/%s" .) }}
+        <article class="home__card home__project">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Params.description }}</p>
+          <a class="home__card-link" href="{{ .RelPermalink }}">Read &rarr;</a>
+        </article>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home__section">
+    <h2 class="home__section-title">Latest investigations</h2>
+    <div class="home__cards home__cards--posts">
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+        <article class="home__card home__post">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Params.description }}</p>
+          <a class="home__card-link" href="{{ .RelPermalink }}">Read &rarr;</a>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home__closing">
+    <p>No fluff. Just systems, problems, solutions and what I learned along the way.</p>
+    <div class="home__cta">
+      <a class="btn" href="{{ "about/" | relURL }}">About</a>
+      <a class="btn" href="{{ "projects/" | relURL }}">Projects</a>
+      <a class="btn home__btn--primary" href="{{ "hire/" | relURL }}">Work with me</a>
+    </div>
+  </section>
+
+</main>
+{{ end }}
+{{ define "sidebar" }}{{ end }}

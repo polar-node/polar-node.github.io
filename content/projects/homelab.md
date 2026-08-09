@@ -1,12 +1,12 @@
----
-title: "My Homelab"
-date: 2026-08-06
-draft: false
-status: "Running"
-categories: ["Infrastructure", "Homelab"]
-tags: ["hardware", "proxmox", truenas",  "opnsense",  "networking", "homelab-hardware"]
-description: "The inner workings of a homelab, the journey building it, and lessons learned."
----
++++
+title = "My Homelab"
+date = 2026-08-06
+draft = false
+status = "Running"
+categories = ["Infrastructure", "Homelab"]
+tags = ["hardware", "proxmox", "truenas", "opnsense", "networking", "homelab-hardware"]
+description = "The inner workings of a homelab, the journey building it, and lessons learned."
++++
 
 ### Overview
 
@@ -44,7 +44,7 @@ In [this post](https://polar-node.work/posts/building-homelab-server/), i explai
 
 ### Virtualization & Orchestration
 
-Proxmox is the hypervisor, close to the default choice for a homelab. I may pick up some hardware down the line to experiment with XCP-ng, but for now it's Proxmox all the way.
+Proxmox is my hypervisor of choice, close to the default choice for a homelab. I may pick up some hardware down the line to experiment with XCP-ng, but for now it's Proxmox all the way.
 
 VM/LXC templates are built with my own published template-creation script.
 

@@ -1,172 +1,47 @@
-# Work With Me
-
-> Building reliable infrastructure, automation, and custom solutions that solve real operational problems.
-
-Hi, I'm **Adrian**, aka **polar-node**,  a Systems Engineer with  a passion for Linux, automation, and infrastructure.
-
-I enjoy turning repetitive manual tasks into reliable, maintainable tools. Whether it's automating virtual machine deployments, securing shared environments, or building custom utilities for system administrators, my focus is always the same: create solutions that are simple to operate and built to last.
-
-If you're looking for someone who values clean architecture, practical engineering, and open-source technologies, I'd be happy to discuss your project.
-
+---
+title: "Work with me"
+date: 2026-08-09
+sidebar: false
 ---
 
-# What I can help your business  with
+## What I can help with
 
-## Linux Infrastructure
+### Infrastructure
 
-Design, deployment, and automation of Linux-based systems with a focus on reliability and maintainability.
+Linux administration, virtualization (Proxmox, VMware), networking, storage, backup infrastructure, monitoring.
 
-## Infrastructure Automation & Orchestration
+### Automation
 
-Automating repetitive operational tasks using Bash, Python, PowerShell, systemd, cloud-init, and other native tools.Ansible as orchestrator brings order and idempotency  over manual error prone tasks
+Ansible, Terraform, infrastructure as code, configuration management, repeatable deployments.
 
-## Virtualization
+### Monitoring
 
-Building and automating Proxmox VE environments, reusable VM templates, and deployment workflows.
+Zabbix, CheckMK, Prometheus and Grafana. Setting up visibility where there is none, and tuning it where the defaults aren't enough.
 
-## Monitoring & Operations
+### Backups
 
-Monitoring solutions, observability, compliance checks, and operational tooling for Linux and Windows environments. I use Zabbix, CheckMK, Grafana/Prometheus
+Backups that actually restore, not just run. Bacula, Veeam, and practical, tested recovery plans.
 
-## Custom Internal Tools
+### Inherited a server nobody understands?
 
-Small, focused applications and utilities that solve real business and operational challenges.
+I can help audit the existing environment, understand what's actually running, identify problems and risks, and establish a practical path forward.
 
-## Backup Strategies
+### Why I build things
 
-Everyone needs solid, reliable backups. In my vision, backups are non-negocciable. I can help you business to adopt, impleement and deploy solid, open source backup solutions
+A lot of my projects start with the same question: how can this become something nobody has to do manually ever again? That's led to automation tools, deployment scripts, and monitoring integrations built for real use, not demos.
 
+### Some things I've built
 
----
+- [Proxmox Template Creator](/posts/proxmox-cloud-init-template-creator/) — automated, cloud-init ready VM template creation for Proxmox VE. ([GitHub](https://github.com/polar-node/proxmox-template-creator))
+- [Zabbix Custom Items](https://github.com/polar-node/zabbix-custom-items) — custom Linux and Windows monitoring checks for Zabbix.
+- [Linux Ephemeral Lab](https://github.com/polar-node/linux-ephemeral-lab) — a stateless Linux environment for shared computers, clean session on every reboot.
 
-# Featured Projects
+Most of what I build is published as open source. See [Projects](/projects/) for larger infrastructure builds, and [Posts](/posts/) for technical write-ups.
 
-## Linux Ephemeral Lab
+### Have an infrastructure problem?
 
-A stateless Linux environment for shared computers where every reboot starts with a completely clean user session.
+Tell me what you're working with, what's broken, and what you're trying to achieve.
 
-Designed for:
+**Work inquiries, consulting, contracts:** [adrianpintea@proton.me](mailto:adrianpintea@proton.me)
 
-- Schools
-- Computer labs
-- Training centers
-- Public kiosks
-- Testing environments
-
-### Highlights
-
-- RAM-backed home directories (`tmpfs`)
-- Automatic home provisioning with `systemd`
-- USB mass-storage blocking with `udev`
-- Zero manual cleanup
-- No proprietary software required
-
----
-
-## Proxmox Template Creator
-
-A shell-based automation tool that simplifies the creation of cloud-init ready VM templates for Proxmox VE.
-
-### Features
-
-- Interactive setup
-- Multiple Linux distributions
-- Automated image preparation
-- SSH key injection
-- Optional Ansible integration
-- Network customization
-- Logging and error recovery
-
----
-
-## Windows Monitoring for Zabbix
-
-Lightweight monitoring extensions for Zabbix Agent 2 providing visibility into:
-
-- Active RDP sessions
-- Console users
-- Windows Firewall status
-- Compliance reporting
-
----
-
-# My Approach
-
-I believe good infrastructure should be:
-
-- Automated whenever possible
-- Easy to reproduce
-- Simple to maintain
-- Well documented
-- Built using native platform capabilities before adding unnecessary dependencies
-
-I prefer practical solutions over unnecessary complexity.
-
----
-
-# Technologies
-
-## Operating Systems
-
-- Linux
-- Windows Server
-
-## Virtualization
-
-- Proxmox VE
-- Cloud-init
-
-## Languages
-
-- Bash
-- Python
-- PowerShell
-- JavaScript
-- TypeScript
-
-## Infrastructure
-
-- systemd
-- Docker
-- Git
-- SSH
-- Networking
-
-## Monitoring
-
-- Zabbix
-- Logging
-- Metrics
-- Alerting
-
----
-
-# Why Work With Me?
-
-I enjoy solving problems that save people time.
-
-Many of my projects start with a simple question:
-
-> "How can this become something nobody has to do manually ever again?"
-
-That mindset has led me to build automation tools, deployment scripts, monitoring integrations, and infrastructure solutions designed for real production environments—not just demonstrations.
-
----
-
-# Open Source
-
-I actively publish many of my projects as open source because I believe good tools should be shared, improved, and reused by the community.
-
-My repositories reflect the kind of work I enjoy building: practical, well-documented software that solves real-world problems.
-
----
-
-# Let's Work Together
-
-Whether you need help automating infrastructure, improving Linux environments, building deployment tooling, or developing custom operational software, I'd love to hear about your project.
-
-Even if you're still exploring ideas, feel free to get in touch.
-
-Let's build something reliable.
-
-Comtact me at :
+**Code, collaboration, GitHub projects:** [polar-node@pm.me](mailto:polar-node@pm.me) 

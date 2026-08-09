@@ -1,14 +1,12 @@
----
-title: "Zabbix HA Cluster — Proxies + Database Cluster (IaC)"
-date: 2026-06-19
-draft: false
-status: "in-progress"
-categories: ["Zabbix", "High Availability", "IaC"]
-tags: ["zabbix", "high-availability", "proxies", "database-cluster", "terraform", "ansible", "proxmox", "aws", "azure", "gcp"]
-description: "Infrastructure-as-Code deployment of a highly-available Zabbix monitoring cluster with distributed proxies and a clustered database backend, portable across on-premise and cloud."
----
-
-**Status: in progress.**
++++
+title = "Zabbix HA Cluster — Proxies + Database Cluster (IaC)"
+date = 2026-06-19
+draft = false
+status = "in-progress"
+categories = ["Zabbix", "High Availability", "IaC"]
+tags = ["zabbix", "high-availability", "proxies", "database-cluster", "terraform", "ansible", "proxmox", "aws", "azure", "gcp"]
+description = "Infrastructure-as-Code deployment of a highly-available Zabbix monitoring cluster with distributed proxies and a clustered database backend, portable across on-premise and cloud."
++++
 
 A fully redundant Zabbix monitoring stack, deployed entirely through code rather than manual configuration:
 

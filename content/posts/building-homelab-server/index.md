@@ -1,12 +1,14 @@
----
-title: "Building the Homelab Server: Hardware Choices and Why"
-date: 2026-08-06
-draft: false
-status: "Running"
-categories: ["Infrastructure", "Homelab"]
-tags: ["hardware", "homelab-hardware"]
-description: "In this post I go through every decision regarding hardware choice, power consumption, and the overall build."
----
++++
+title = "Building the Homelab Server: Hardware Choices and Why"
+date = 2026-08-06
+draft = false
+status = "Running"
+categories = ["Infrastructure", "Homelab"]
+tags = ["hardware", "homelab-hardware"]
+description = "In this post I go through every decision regarding hardware choice, power consumption, and the overall build."
++++
+
+
 
 As I said, the homelab project isn't static. However, this is the current hardware snapshot, if you will.
 

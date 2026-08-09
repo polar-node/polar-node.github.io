@@ -1,13 +1,13 @@
----
-title: "Automating Proxmox VM Template Creation with Cloud-Init"
-date: 2026-06-15
-draft: false
-categories: ["Proxmox", "Automation"]
-tags: ["proxmox", "cloud-init", "bash", "virtualization", "iac"]
-description: "How I built a Bash script to automate cloud-init template creation for 11 Linux distributions on Proxmox VE."
----
++++
+title = "Automating Proxmox VM Template Creation with Cloud-Init"
+date = 2026-06-15
+draft = false
+categories = ["Proxmox", "Automation"]
+tags = ["proxmox", "cloud-init", "bash", "virtualization", "iac"]
+description = "How I built a Bash script to automate cloud-init template creation for 11 Linux distributions on Proxmox VE."
++++
 
-## The problem
+### The problem
 
 There's something innate in some people — the drive to fix whatever is annoying. Annoying to some, but apparently default behavior for others.
 
@@ -15,7 +15,7 @@ Since I started my journey with Proxmox, I was amazed by its capabilities, and e
 
 Me being me, I knew those days were over. I needed a template — something streamlined that already had the utilities I always ended up installing manually after spinning up a new VM.
 
-## The solution
+### The solution
 
 So there I was on the Proxmox forums, asking about this. It wasn't like the Arch forums, where "RTFM" is the unofficial motto — people pointed me toward the documentation and a few posts that explained, in detail, what needed to be done.
 
@@ -23,7 +23,7 @@ After reading and understanding the core concepts, cloud-init felt like a light 
 
 I'm not a coder by trade — I'm more of a hardware/systems administration person. But I like to cook. And writing this script turned out to be a lot like building a new recipe: gather the right ingredients (packages, configs), follow a process in the right order, and taste-test along the way until it actually works.
 
-## How it works
+### How it works
 
 The script doesn't reinvent the wheel — it wraps Proxmox's own `qm` commands and the cloud-init workflow that's already well documented on the Proxmox wiki, and turns a 20-step manual process into a single guided run.
 
@@ -67,7 +67,7 @@ The preflight phase was the part I cared about most. Nothing is more frustrating
 
 It's not glamorous work. But it turned a repetitive, error-prone task into something I run once and trust.
 
-## Why I made it public
+### Why I made it public
 
 I learned almost everything about cloud-init and the `qm` workflow from other people's forum posts, blogs, and half-finished scripts shared for free. None of this would exist without that. So once the script actually worked reliably, the obvious next step was to put it on GitHub — not because it's revolutionary, but because someone else stuck on the same repetitive task deserves the same shortcut I was looking for. It's the least I can do to give back to a community that gave me the answer first.
 

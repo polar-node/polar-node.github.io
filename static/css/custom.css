@@ -46,3 +46,81 @@
 .follow-cta__btn:hover {
   background-color: #1f6fb3;
 }
+
+.home__hero {
+  margin-bottom: 2.5em;
+}
+
+.home__tagline {
+  color: #2d8ee2;
+  font-weight: 600;
+  margin: 0.3em 0;
+}
+
+.home__section {
+  margin: 2.5em 0;
+  padding-top: 1.5em;
+  border-top: 1px solid #e5e5e5;
+}
+
+.home__section-title {
+  margin-bottom: 1em;
+}
+
+.home__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+}
+
+.home__card {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 1.2em 1.4em;
+  background-color: #fafafa;
+}
+
+.home__card h3 {
+  margin-top: 0;
+}
+
+.home__card-link {
+  display: inline-block;
+  margin-top: 0.5em;
+  font-weight: 600;
+  color: #2d8ee2;
+}
+
+.home__btn--primary {
+  background-color: #2d8ee2;
+  color: #fff !important;
+  border-color: #2d8ee2;
+}
+
+.home__btn--primary:hover {
+  background-color: #1f6fb3;
+}
+
+.home__closing {
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid #e5e5e5;
+}
+
+.widget-taglist__link {
+  background-color: #2d8ee2;
+  color: #fff !important;
+}
+
+.widget-taglist__link:hover {
+  background-color: #1f6fb3;
+}
+
+.list__status {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #2d8ee2;
+  margin: 0.3em 0;
+}

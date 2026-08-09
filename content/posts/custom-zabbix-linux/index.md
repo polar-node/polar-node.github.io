@@ -1,12 +1,11 @@
----
-title: "17 Custom Zabbix checks every Linux Admin should have"
-date: 2026-08-07
-draft: false
-categories: ["monitoring", "Infrastructure"]
-tags: ["linux", "opensource", "zabbix", "sysadmin"]
-description: "A post about extending monitoring scope of Zabbix with custom parameters"
----
-
++++
+title = "17 Custom Zabbix checks every Linux Admin should have"
+date = 2026-08-07
+draft = false
+categories = ["monitoring", "Infrastructure"]
+tags = ["linux", "opensource", "zabbix", "sysadmin"]
+description = "A post about extending monitoring scope of Zabbix with custom parameters"
++++
 
 
 Zabbix's default templates cover the basics pretty well, but accepting only the defaults,  puts you in the spectator seat: green or red, up or down, basic alerting. The moment you want to know in-depth *why* a server feels off, not just *that* something's wrong, you're on your own. As in yo can tweak and get more from Zabbix, but some efforts is required.

@@ -1,14 +1,12 @@
----
-title: "HA Apache Guacamole — Nginx + MariaDB Galera Cluster (IaC)"
-date: 2026-06-19
-draft: false
-status: "in-progress"
-categories: ["Guacamole", "High Availability", "IaC"]
-tags: ["guacamole", "high-availability", "nginx", "mariadb", "galera", "load-balancing", "iac"]
-description: "Infrastructure-as-Code deployment of a highly-available Apache Guacamole remote access gateway, load-balanced with Nginx and backed by a MariaDB Galera cluster."
----
-
-**Status: in progress.**
++++
+title = "HA Apache Guacamole — Nginx + MariaDB Galera Cluster (IaC)"
+date = 2026-06-19
+draft = false
+status = "in-progress"
+categories = ["Guacamole", "High Availability", "IaC"]
+tags = ["guacamole", "high-availability", "nginx", "mariadb", "galera", "load-balancing", "iac"]
+description = "Infrastructure-as-Code deployment of a highly-available Apache Guacamole remote access gateway, load-balanced with Nginx and backed by a MariaDB Galera cluster."
++++
 
 A resilient remote-access gateway built so that no single component — web tier, application tier, or database — is a single point of failure:
 

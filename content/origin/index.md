@@ -5,16 +5,18 @@ title = 'Origin'
 +++
 **From a Reel-to-Reel tape machine to Linux Infrastructure: A journey of curiosity, learning, and sharing**
 
+## 01 The question
+
 My journey into technology started with a question.
 
-Not a question about programming, networking, or computers. It started with an old reel-to-reel tape machine and a thought I could not ignore:
+Not a question about programming, networking, or computers. It started with an old reel-to-reel tape machine that my uncle showed me, playing music  and a thought I could not ignore:
 
 ***How does this actually work?***
 I was fascinated by the idea that something could appear simple on the outside while hiding a complex world underneath. I wanted to understand what was happening inside, how the pieces connected, and why things worked the way they did.
 
 Looking back, that curiosity became the foundation of everything that followed. Whether I was repairing computers, learning Linux, building infrastructure, or automating systems, the motivation was always the same: do not just use something, understand it.
 
-**The first computers and the foundations**
+## 02 The first computers
 
 My first computer arrived in the 1990s. It was a modest AMD Athlon system, but for me it was a gateway into an entirely new world.
 
@@ -24,9 +26,9 @@ Learning about the Von Neumann architecture, understanding how processors and me
 
 Outside school, I spent years building, rebuilding, and troubleshooting Windows machines. Like many people from that generation, I learned a lot from forums, documentation, and trial and error. Breaking things was often the fastest way to understand them.
 
-**Starting over in another country**
+## 03 Starting over
 
-Moving to southern Spain changed everything.
+Life is contantly moving, without even knowing where you may end up. For me, moving to southern Spain changed everything.
 
 I arrived without speaking the local language and with the assumption that English would be enough. It was not. On top of that, getting my previous education officially recognized became a long process.
 
@@ -38,15 +40,15 @@ When the economic crisis hit, freelance computer repair became my main source of
 
 I started seeing problems differently. A problem was no longer just something broken. It was an opportunity to understand something new.
 
-**The mistake that introduced me to Linux**
+## 04 The mistake that introduced me to Linux
 
 One mistake changed my relationship with technology.
 
 I accidentally deleted a partition containing all my personal photos.
 
-The recovery software I found online was expensive, and I could not afford it. While searching for alternatives, I ended up on a Linux forum.
+The recovery software I found online was expensive, and I could not afford it. While searching for alternatives on the internet, I ended up on a Linux forum.
 
-At the time, Linux felt unfamiliar. The command line was intimidating, and the community was very different from the commercial software world I knew.
+At the time, Linux felt unfamiliar. The command line was intimidating, and the community support  was very different from the commercial software world I knew.
 
 But something immediately stood out.
 
@@ -56,19 +58,19 @@ There was no sales pitch, no locked features, and no requirement to buy somethin
 
 It worked.
 
-I recovered my photos, but I gained something much more important: my first real connection with the Linux philosophy.
+Not only I recovered my photos, but also I gained something much more important: my first real connection with the Linux philosophy.
 
 Technology could be shared. Knowledge could be freely exchanged. Communities could help people solve real problems.
 
 That idea stayed with me.
 
-**Linux becomes more than a hobby**
+## 05 Linux becomes more than a hobby
 
 Linux slowly became a constant part of my learning journey.
 
 Windows remained my main work environment for a long time, but Linux was always there in the background, powering experiments and personal projects.
 
-Eventually, that interest became a career direction. I moved into professional computer repair, completed a degree in Network Systems Administration, and started building larger projects.
+Eventually, that interest became a career direction. I moved into professional computer repair, completed a degree in  Systems Administration, and started building larger projects.
 
 For my final project, I created a Raspberry Pi-based surveillance system running Debian. It included remote access and security filtering and received a 9/10 grade.
 
@@ -76,7 +78,7 @@ The grade was nice, but the more important lesson was realizing that Linux gave 
 
 That was when I decided I wanted to start contributing back.
 
-**From experiments to real-world solutions**
+## 06 From experiments to real-world solutions
 
 As my Linux knowledge grew, my curiosity moved deeper into the hardware layer.
 
@@ -90,7 +92,7 @@ I designed a Raspberry Pi-based alternative using standardized hardware and a co
 
 It was a simple idea, but it represented something I enjoy most about technology: taking limitations and turning them into engineering challenges.
 
-**Learning infrastructure properly**
+## 07 Learning infrastructure properly
 
 Eventually, my experiments moved from individual machines to complete environments.
 
@@ -110,17 +112,17 @@ That experience reinforced a pattern that has followed me throughout my career:
 
 Understand first. Improve second. Automate whenever possible.
 
-**The automation journey**
+## 08 The automation journey
 
 That mindset naturally led me toward automation and infrastructure as code.
 
-I started with Ansible, and it immediately felt like the right way to manage systems. Instead of repeating manual tasks, infrastructure could become consistent, documented, and repeatable.
+It started small: bash scripts to handle repetitive, mundane tasks. That was enough to show me how much time manual work was quietly costing.
 
-From there, I expanded into AWS, CloudFormation, and eventually Terraform, which has become my preferred infrastructure-as-code tool.
+Ansible came next, and it immediately felt like the right way to manage systems. Instead of repeating manual tasks, infrastructure could become consistent, documented, and repeatable.
 
-Along the way, tools like Git, Jenkins, Airflow, Prometheus, and Grafana became part of my daily toolkit, helping me build systems that are not only functional but observable and maintainable.
+From there, I expanded into AWS, CloudFormation, and eventually Terraform, which has become my preferred infrastructure-as-code tool. Along the way, tools like Git and CI/CD platforms like Jenkins became part of my daily toolkit, helping me build and deploy systems in a repeatable, automated way.
 
-The same question remains
+## 09 The same question remains
 
 From that first reel-to-reel tape machine to modern cloud infrastructure, the technology has changed completely.
 
@@ -130,4 +132,4 @@ The question has not.
 
 That curiosity continues to drive me. It pushes me to learn, experiment, build, and share knowledge with others.
 
-Because the best part of technology is not only creating solutions. It is understanding them deeply enough that you can help someone else create theirs.
+Because the best part of technology is not only creating solutions. It is understanding them deeply enough that you can help someone else create theirs. 

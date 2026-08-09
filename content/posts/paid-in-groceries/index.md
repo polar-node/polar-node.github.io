@@ -1,11 +1,11 @@
----
-title: "I Got Paid in Groceries. Here's What I Built."
-date: 2026-07-22
-draft: false
-categories: ["Projects", "Infrastructure"]
-tags: ["linux", "opensource", "devops", "sysadmin", "proxmox", "ansible", "wazuh", "foss"]
-description: "A small retailer had no backups, no monitoring, no remote access, and roughly zero budget. Here's what got built with a 12-year-old desktop and open source tools."
----
++++
+title = "I Got Paid in Groceries. Here's What I Built."
+date = 2026-07-22
+draft = false
+categories = ["Projects", "Infrastructure"]
+tags = ["linux", "opensource", "devops", "sysadmin", "proxmox", "ansible", "wazuh", "foss"]
+description = "A small retailer had no backups, no monitoring, no remote access, and roughly zero budget. Here's what got built with a 12-year-old desktop and open source tools."
++++
 
 A small retailer asked me for help. They had nothing. No backups. No monitoring. No remote access. Budget: roughly zero, or a discount on groceries. They promised.
 
