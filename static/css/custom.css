@@ -124,3 +124,9 @@
   color: #2d8ee2;
   margin: 0.3em 0;
 }
+
+.post__title,
+.main__title,
+.home__name {
+  font-size: 1.8em;
+}

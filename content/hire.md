@@ -1,8 +1,9 @@
----
-title: "Work with me"
-date: 2026-08-09
-sidebar: false
----
++++
+title = "Work with me"
+date = 2026-08-09
+sidebar = false
+toc = false
++++
 
 ## What I can help with
 
