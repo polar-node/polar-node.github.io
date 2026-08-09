@@ -7,21 +7,50 @@ toc = false
 
 ## What I can help with
 
-### Infrastructure
+### Infrastructure — cloud, hybrid or on-premises
 
-Linux administration, virtualization (Proxmox, VMware), networking, storage, backup infrastructure, monitoring.
+Design, build, improve, or migrate infrastructure.
+
+- Linux administration and troubleshooting
+- Virtualization with Proxmox or VMware
+- Custom VM templates, Linux images, and containers
+- Hypervisor migrations
+- On-premises and hybrid storage
+- Infrastructure documentation and operational guides
+- Infrastructure design and architecture
 
 ### Automation
 
-Ansible, Terraform, infrastructure as code, configuration management, repeatable deployments.
+Turn repetitive infrastructure work into something consistent and repeatable.
+
+- Ansible configuration management
+- Terraform and Infrastructure as Code
+- Automated deployments
+- Custom scripts and tooling
+- Reproducible server and VM provisioning
 
 ### Monitoring
 
-Zabbix, CheckMK, Prometheus and Grafana. Setting up visibility where there is none, and tuning it where the defaults aren't enough.
+Know what is happening before users start reporting problems.
 
-### Backups
+- Zabbix, CheckMK, Prometheus/Grafana or your prefered enterprise monitoring stack
+- Custom monitoring templates, items, checks, and alerts
+- Improving existing monitoring where the defaults aren't enough
+- Building visibility where there currently is none
+- High-availability monitoring infrastructure
+- Centralized remote-access and jump-server infrastructure
+- Session recording and auditing
 
-Backups that actually restore, not just run. Bacula, Veeam, and practical, tested recovery plans.
+### Backups and disaster recovery
+
+Backups are only useful if they can actually be restored.
+
+- Bacula (Project Bacularis)
+- Veeam
+- Backup infrastructure design
+- Recovery testing
+- Disaster recovery scenarios
+- Recovery documentation and practical runbooks
 
 ### Inherited a server nobody understands?
 
