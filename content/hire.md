@@ -7,6 +7,13 @@ toc = false
 
 ## What I can help with
 
+I work with open-source technologies that are free from traditional licensing costs and restrictive vendor models. This means you can build and operate infrastructure without being locked into per-server, per-VM, per-device, per-user, or similar licensing fees.
+
+Open source software is free to use, but implementing it properly is not free. Designing the architecture, deploying and integrating the software, securing it, tailoring it to your environment, automating its operation, documenting it, and keeping it reliable in production requires experience, expertise, and time.
+
+You are not paying for a software license. You are paying for the expertise required to make the software work properly for your organization or bussines.
+
+
 ### Infrastructure — cloud, hybrid or on-premises
 
 Design, build, improve, or migrate infrastructure.
@@ -52,6 +59,36 @@ Backups are only useful if they can actually be restored.
 - Recovery testing
 - Disaster recovery scenarios
 - Recovery documentation and practical runbooks
+
+### Remote access and device management
+
+Build secure, self-hosted infrastructure for remote access and centralized device management.
+
+    
+- RustDesk self-hosted remote desktop infrastructure
+- Centralized remote-access environments
+- Android device management with Headwind MDM
+- On-premises and No-GMS Android deployments
+- Kiosk-mode deployments and managed device fleets
+
+### Containers and orchestration
+
+From a single server to production environments requiring orchestration and repeatable management.
+
+- Docker and containerized workloads
+- LazyDocker for fast, terminal-based container management
+- Docker Swarm for container orchestration, scaling, and service deployment
+- Container deployment and operational tooling
+
+### Development and project tooling
+
+Use practical, self-hosted tools where they make sense instead of adding unnecessary complexity or licensing costs.
+
+- Lazygit for fast terminal-based Git workflows
+- OpenProject for project planning, Gantt charts, costs, and structured project management
+- Taiga for lightweight agile project management
+- Self-hosted development and collaboration tooling
+
 
 ### Inherited a server nobody understands?
 
