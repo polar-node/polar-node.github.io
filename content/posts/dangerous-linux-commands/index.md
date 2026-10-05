@@ -121,6 +121,46 @@ The root partition (`/dev/sda1`, 30 GB) showed 820 KB used, 1%. Only seven direc
 - A running shell survives its own binaries being deleted, but can't start anything new.
 - Snapshots are why this series exists.
 
+#### So, how do we prevent this?
+
+If you want at least one tiny speed bump between yourself and accidentally removing important directories, make rm interactive:
+
+`alias rm='rm -i'`
+
+Now rm  doesn't immediately send the root directory content into the void. It asks you first:
+
+`rm: remove /? y`
+
+For a golden Linux ISO, you can put the alias in /etc/skel/.bashrc so newly created users get the safeguard automatically:
+
+`alias rm='rm -i'`
+
+And if you're managing an existing fleet, use Ansible (or whatever configuration-management system you trust) to propagate it across the infrastructure.
+
+```yaml
+- name: Make rm ask before removing things
+  ansible.builtin.lineinfile:
+    path: /etc/skel/.bashrc
+    line: "alias rm='rm -i'"
+    create: true
+```
+
+
+Of course, this is not a security boundary. Aliases can be bypassed, scripts don't necessarily use them, and sudo/absolute paths can completely sidestep this protection.
+
+But as a final layer of protection against the classic:
+
+`rm -rf /*`
+
+followed immediately by:
+
+    “Wait... what did I just type?”
+
+...it's cheap, simple, and worth having.
+
+Backups and snapshots are still the real mitigation. The alias is just there to give your brain one last chance to say:
+
+“Maybe don't remove the /.”
 
 Next episode teaser: the fork bomb, :(){ :|:& };:
 
